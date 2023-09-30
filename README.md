@@ -1,85 +1,179 @@
-## Corelab Challenge:
+<a name="readme-top"></a>
 
-You are tasked with building a web application that allows users to create and manage their to-do lists. The application should consist of a responsive webpage built in React, and an API built in Node.js to store and manage the to-do lists.
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
+<br />
+<div align="center">
+  <a href="https://github.com/cassianojunior/corenotes-web">
+    <img src="src/app/icon.svg" alt="Logo" width="80" height="80">
+  </a>
 
-### The repositories
-The [frontend repository](https://github.com/corelabbr/corelab-web-challenge)
+<h3 align="center">CoreNotes</h3>
+  <p align="center">
+    Project for a job opening at Corelab that consists a note management system
+    <br />
+    <a href="https://github.com/cassianojunior/corenotes-web"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/cassianojunior/corenotes-web">View Demo</a>
+    ·
+    <a href="https://github.com/cassianojunior/corenotes-web/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/cassianojunior/corenotes-web/issues">Request Feature</a>
+  </p>
+</div>
 
-If you feel more comfortable, you can pick another React framework and show us your skills.
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
-The [backend repository](https://github.com/corelabbr/corelab-api-challenge)
+## About the Project
 
-If you feel more comfortable, you can pick another Node JS framework and show us your skills.
+<div align="center">
+  <img src="docs/images/login-screen-min.png" width="250px" />
+  <img src="docs/images/main-screen-min.png" width="250px" />
+  <img src="docs/images/preview.gif" />
+</div>
 
-### The Layout
-Open the [layout mockup](https://www.figma.com/file/sQrUVHTlyogq3qGdkqGTXN/mockup?node-id=7%3A2&t=ANTOTiqjqGWYuoUr-0) in desktop and mobile version and follow this design as much as possible.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### Built With
 
-### The application should have the following functionality:
+* [![Next][Next.js]][Next-url]
+* [![React][React.js]][React-url]
+* [![Tailwind][TailwindCSS]][TailwindCSS-url]
+* [![React Hook Form][react-hook-form]][react-hook-form-url]
+* [![Zod][zod]][zod-url]
+* [![React Query][react-query]][react-query-url]
+* [![Axios][axios]][axios-url]
 
-1. Users should be able to create, read, update, and delete to-do items using the API.
-2. Users should be able to mark an item as a favorite.
-3. Users should be able to set a color for each to-do item.
-4. The React frontend should display the user's to-do list in a responsive and visually appealing manner, with the ability to filter by favorite items and color.
-5. The favorited items should be displayed at the top of the list.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Technical Requirements:
-1. The backend API should be built in Node.js framework and use a database of your choice (e.g., MongoDB, PostgreSQL, etc.).
-2. The frontend should be built in React and use modern web development tools and best practices.
-3. The application should be responsive and visually appealing.
+## Getting Started
 
-### Deliverables:
-1. A link to a GitHub repository containing the complete source code for the project.
-2. A written description of how to set up and run the application locally.
+### Prerequisites
 
+* CoreNotes API
 
-### Evaluation Criteria:
-1. Code Quality
-2. Code Format
-3. Code Perfomance
-4. Frontend Design
-5. If your code is Easily Readable
-6. Mobile First approach
-7. Code Responsability
-8. Features Work
-9. Responsiveness
-10. Does the application meet the functionality requirements listed above?
-11. Is the code well-organized, easy to read, and well-documented?
-12. Are modern web development tools and best practices used?
-13. Is the application visually appealing and responsive?
+  You can find and setup the API [here](https://github.com/cassianojunior/corenotes-api.git)
 
-### Backend
-Repository: 
-1. Node: ^16.15.0
-2. NPM: ^8.5.5
-3. Framework: Adonis TS or any other node framework you know.
-4. Database: Choose your own, you can even save in memory.
+* Node
 
-### Frontend
-Repository: 
-1. Node: ^16.15.0
-2. NPM: ^8.5.5
-3. Framework: React TS
-4. Sass or other preprocessor
+  You can install Node from [here](https://nodejs.org/en/download/)
 
-### Want to impress us even more?
-If you feel comfortable and want to impress us even more, you can do the following:
+### Installation
 
-1. Work on correct types and interfaces
-2. Work on eslint rules
-3. Work prettier config
-4. Work on docker containers
-5. Work on tests
-6. Work on CI/CD
+1. Clone the repo or download the zip file
+  
+    ```sh
+    git clone https://github.com/cassianojunior/corenotes-web.git
+    ```
 
-### What to do when you finish?
+2. Enter the project folder
+  
+    ```sh
+    cd corenotes-web
+    ```
 
-Create a file PULL_REQUEST.md where you will describe what you did and how in as much detail as possible. Feel free to add videos for better explanation.
+3. Install NPM packages
+  
+    ```sh
+    npm install
+    ```
 
-Create a new pull request using the same branch name for Backend and Frontend
+4. Run the project
+  
+    ```sh
+      npm run dev
+    ```
 
-Send us the pull requests and that's all!
+    Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-#### Good luck! The sky is the limit 🚀
+## Roadmap
+
+* [x] Requested features
+  * [x] Users should be able to create, read, update, and delete to-do items using the API.
+  * [x]  Users should be able to mark an item as a favorite.
+  * [x] Users should be able to set a color for each to-do item.
+  * [x] The React frontend should display the user's to-do list in a responsive and visually appealing manner, with the ability to filter by favorite items and color.
+  * [x] The favorited items should be displayed at the top of the list.
+* [x] Additional features
+  * [x] Users should be able to create an account and log in.
+  * [x] Dark and light theme.
+
+See the [open issues](https://github.com/cassianojunior/corenotes-web/issues) for a full list of proposed features (and known issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Contributing
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Contact
+
+Cassiano Junior - [@dev_cassianojr](https://twitter.com/dev_cassianojr) - [cassianojuniorww@gmail.com](mailto:cassianojuniorww@gmail.com)
+
+Project Link: [https://github.com/cassianojunior/corenotes-web](https://github.com/cassianojunior/corenotes-web)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/cassianojunior/corenotes-web
+[contributors-url]: https://github.com/cassianojunior/corenotes-web/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/cassianojunior/corenotes-web
+[forks-url]: https://github.com/cassianojunior/corenotes-web/network/members
+[stars-shield]: https://img.shields.io/github/stars/cassianojunior/corenotes-web
+[stars-url]: https://github.com/cassianojunior/corenotes-web/stargazers
+[issues-shield]: https://img.shields.io/github/issues/cassianojunior/corenotes-web
+[issues-url]: https://github.com/cassianojunior/corenotes-web/issues
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/cassianojunior
+[Next.js]: https://img.shields.io/badge/Next-000000?logo=nextdotjs&logoColor=white
+[Next-url]: https://nextjs.org/
+[React.js]: https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+[Tailwindcss]: https://img.shields.io/badge/TailwindCSS-0f172a?logo=tailwindcss&logoColor=06B6D4
+[Tailwindcss-url]: https://tailwindcss.com/
+[react-hook-form]: https://img.shields.io/badge/React_Hook_Form-081229?logo=reacthookform&logoColor=EC5990
+[react-hook-form-url]: https://react-hook-form.com/
+[zod]: https://img.shields.io/badge/Zod-283339?logo=zod&logoColor=3E67B1
+[zod-url]:https://zod.dev
+[react-query]: https://img.shields.io/badge/React_Query-111827?logo=reactquery&logoColor=FF4154
+[react-query-url]: https://react-query.tanstack.com/
+[axios]: https://img.shields.io/badge/Axios-373747?logo=axios&logoColor=5A29E4
+[axios-url]: https://axios-http.com/
